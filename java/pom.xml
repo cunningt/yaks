@@ -82,6 +82,11 @@
             </dependency>
             <dependency>
                 <groupId>dev.yaks</groupId>
+                <artifactId>yaks-testing-file</artifactId>
+                <version>${project.version}</version>
+            </dependency>  
+            <dependency>
+                <groupId>dev.yaks</groupId>
                 <artifactId>yaks-testing-jdbc</artifactId>
                 <version>${project.version}</version>
             </dependency>
@@ -159,6 +164,7 @@
         <module>yaks-testing</module>
         <module>yaks-testing-camel</module>
         <module>yaks-testing-camel-k</module>
+        <module>yaks-testing-file</module>
         <module>yaks-testing-http</module>
         <module>yaks-testing-jdbc</module>
         <module>yaks-testing-standard</module>
